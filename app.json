@@ -1,13 +1,13 @@
 {
-  "name": "𝗦𝗢𝗨𝗥𝗖𝗘 𝗭𝗘𝗗",
-  "description": "⿻ سورس زد ثـون ™ افضل سورسات تيليثون ↬اوامر مامطروقه↬ معرب بالكامل ↬ اضافات جديده ↬ تحديثات متواصله ↬ اكتشفها بنفسك ↬────────────────────𝙎𝙊𝙐𝙍𝘾𝞝_𝙕𝞝𝘿 : @ZedThon",
-  "logo": "https://telegra.ph/file/c91c09fb188f0f281e628.jpg",
+  "name": "𝗦𝗢𝗨𝗥𝗖𝗘 𝐑𝐀𝐈𝐈𝐒",
+  "description": "⿻ سورس ريس ثـون ™ افضل سورسات تيليثون ↬اوامر مامطروقه↬ معرب بالكامل ↬ اضافات جديده ↬ تحديثات متواصله ↬ اكتشفها بنفسك ↬────────────────────𝙎𝙊𝙐𝙍𝘾𝞝_𝐑𝐀𝐈𝐈𝐒 : @RallsThon",
+  "logo": "https://telegra.ph/file/57d51af1ca93d8cc8a958.jpg",
   "keywords": [
     "plugin",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/Zedthon/ZED_USERBOT/",
+  "repository": "https://github.com/raiis1/Raiis_USERBOT/",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
@@ -46,7 +46,7 @@
     },
     "PMPERMIT_PIC": {
       "description": "رابـط صورة تليكـراف - لتغيـرها ",
-      "value": "https://telegra.ph/file/c91c09fb188f0f281e628.jpg",
+      "value": "https://telegra.ph/file/57d51af1ca93d8cc8a958.jpg",
       "required": false
     },
     "MAX_FLOOD_IN_P_M_s": {
@@ -92,7 +92,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "رمز السورس - لتلعب ",
-      "value": "zed ",
+      "value": "Ralls ",
       "required": false
     }
   },
