@@ -6,7 +6,7 @@ _get_ziplink () {
     regex='(https?)://github.com/.+/.+'
     if [[ $UPSTREAM_REPO == "Ralls" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1plZHRob24vWmVkVGhvbi1QQUNLL2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL3JhaWlzMS9SYWxsc1Rob24tUEFDSy9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
     elif [[ $UPSTREAM_REPO =~ $regex ]]
     then
         if [[ $UPSTREAM_REPO_BRANCH ]]
@@ -16,7 +16,7 @@ _get_ziplink () {
             echo "${UPSTREAM_REPO}/archive/master.zip"
         fi
     else
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1plZHRob24vWmVkVGhvbi1QQUNLL2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL3JhaWlzMS9SYWxsc1Rob24tUEFDSy9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
     fi
 }
 
@@ -26,7 +26,7 @@ _get_repolink () {
     regex='(https?)://github.com/.+/.+'
     if [[ $UPSTREAM_REPO == "Ralls" ]]
     then
-        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL3JhaWlzMS9SYUlJc19VU0VSQk9U" | base64 -d`
+        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL3JhaWlzMS9SYWlpc19VU0VSQk9U" | base64 -d`
     elif [[ $UPSTREAM_REPO =~ $regex ]]
     then
         rlink=`echo "${UPSTREAM_REPO}"`
